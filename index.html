@@ -1,5 +1,124 @@
+<!DOCTYPE html>
 <html>
+	<head>
+		<title>CS 184 Style Guide</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link type="text/css" rel="stylesheet"
+		href="./bootstrap/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet"
+		href="./bootstrap/css/bootstrap-responsive.css">
+		<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
+	</head>
 	<body>
-		test
+		<hr>
+		<header>
+			<p>This is a style guide by Mitchell Fukumoto</p>
+		</header>
+		<main>
+			<section>
+				<h1>Hello World</h1>
+				<h2>Hello World</h2>
+				<h3>Hello World</h3>
+				<h4>Hello World</h4>
+				<h5>Hello World</h5>
+				<h6>Hello World</h6>
+			</section>
+
+			<section>
+				<h2>Grouping Content</h2>
+				<ol>
+					<li>Ordered List 1</li>
+					<li>Ordered List 2</li>
+					<li>Ordered List 3</li>
+				</ol>
+				<ul>
+					<li>Unordered List 1</li>
+					<li>Unordered List 2</li>
+					<li>Unordered List 3</li>
+				</ul>
+
+				<dl>
+					<dt>Term to be defined</dt>
+					<dd>definition</dd>
+				</dl>
+			</section>
+			<section>
+				<h2>Text-Level Sementics</h2>
+				<p>Paragraph with a link to <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5/HTML5_element_list">Mozilla HTML5 Elements</a></p>
+				<em>Emphasized 'em' Text</em>
+				<strong>Bolded 'strong' text</strong>
+				<small>Small 'small' text</small>
+				<s>Content 's' no longer accurate</s>
+				<cite>Represents 'cite' title of work</cite>
+				<q>Inline 'q' quotation</q>
+				<code>Use this to represent code</code>
+				<var>Represents a variable</var>
+				<samp>Represents the output of a program or a computer</samp>
+				<kbd>User input from keyboard or voice</kbd>
+				<i>Italics 'i' text</i>
+				<b>Alternate 'b' voice</b>
+				<math>1 + 1 = 86</math>
+			</section>
+			<section>
+				<h2>Figures and Videos</h2>
+				<figure>
+					<img src="http://thecatapi.com/?id=4ab" alt="Picture" />
+					<figcaption>A drunken cat and this is the caption</figcaption>
+				</figure>
+				<figure>
+					<img src="http://thecatapi.com/?id=33a" alt="Cats!" />
+					<figcaption>CUTE KITTY</figcaption>
+				</figure>
+				<iframe width="560" height="315" src="http://www.youtube.com/watch?v=dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+			</section>
+			<section>
+				<h2>Tables</h2>
+				<legend>A legend</legend>
+				<table>
+					<table border="1">
+					<colgroup span="2" class="columns"></colgroup>
+					<caption> This table holds my name and others.</caption>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+					</tr>
+					<tr>
+						<td>Mitchell</td>
+						<td>Fukumoto</td>
+					</tr>
+					<tr>
+						<td>John</td>
+						<td>Smith</td>
+					</tr>
+				</table>
+			</section>
+			<section>
+				<h2>Forms</h2>
+				<form action="">
+					<label>A select box</label>
+					<select id="options">
+						<option value="Option 1">Option 1</option>
+						<option value="Option 2">Option 2</option>
+						<option value="Option 3">Option 3</option>
+					</select>
+					<fieldset>
+						<label>Input Box</label>
+						<input type="text" name="input" value="Type stuff here">
+						<input type="submit" value="Submit"/>
+					</fieldset>
+				</form> 
+				<button name="button">A Button</button>
+			</section>
+		</main>
+		<hr>
+		<footer>
+			<p>Footer</p>
+			<div id="address_wrapper">
+				<address>
+					My address is 123 Sesame Street.
+				</address>
+			</div>
+			<br />
+		</footer>
 	</body>
 </html>
